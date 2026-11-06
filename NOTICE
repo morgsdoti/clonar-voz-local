@@ -1,0 +1,39 @@
+clonar-voz-local — código original de Mariana Morgs / DOTI, licença MIT.
+Este repositório NÃO inclui código OmniVoice/VoiceStudio, pesos ou áudios.
+
+Dependências são projetos separados e NÃO recebem a licença MIT deste repo:
+
+1. OmniVoice, k2-fsa / autores do artigo:
+   https://github.com/k2-fsa/OmniVoice
+   Código: Apache License 2.0 (consulte LICENSE upstream).
+   https://github.com/k2-fsa/OmniVoice/blob/master/LICENSE
+
+2. Pesos k2-fsa/OmniVoice:
+   https://huggingface.co/k2-fsa/OmniVoice
+   O model card declara CC-BY-NC, por restrições dos dados de treinamento
+   (incluindo Emilia). NÃO presumir permissão comercial. O card consultado
+   não identifica versão numérica da CC; não inventamos uma aqui.
+   Leia os termos vigentes, preserve atribuições e obtenha autorização
+   apropriada antes de qualquer uso comercial. MIT/Apache do código NÃO
+   substituem a licença não comercial dos pesos nem liberam seus resultados.
+
+3. Tokenizer de áudio Higgs (baixado pelo upstream):
+   https://huggingface.co/eustlb/higgs-audio-v2-tokenizer
+   https://huggingface.co/bosonai/higgs-audio-v2-tokenizer
+   Há termos adicionais Boson e componentes sujeitos a termos Meta/Llama.
+   Não é possível afirmar que toda a cadeia seja MIT/Apache ou comercialmente
+   liberada. Confira o card, arquivos de licença e atribuições de cada
+   componente na revisão efetivamente baixada. Este projeto não concede
+   direitos sobre esses componentes e não garante fechamento das licenças.
+
+4. faster-whisper / CTranslate2 e modelo Whisper:
+   https://github.com/SYSTRAN/faster-whisper
+   https://huggingface.co/Systran/faster-whisper-small
+   Consulte as licenças próprias dessas dependências e de seus pesos.
+
+VoiceStudio (debpalash/VoiceStudio, AGPL-3.0-only) NÃO é uma dependência e
+nenhum código dessa aplicação foi copiado. Nenhuma afiliação ou endosso
+por k2-fsa, Boson, Meta ou ElevenLabs é sugerido.
+
+Grátis aqui significa sem cobrança por API, não sem restrições de licença,
+nem sem custos de computador, energia, armazenamento e internet.

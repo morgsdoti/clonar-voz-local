@@ -1,0 +1,13 @@
+# Instale torch/torchaudio 2.8.0 para sua plataforma ANTES deste arquivo.
+# Pacote oficial upstream, sem código vendorizado ou VoiceStudio.
+torch==2.8.0
+torchaudio==2.8.0
+omnivoice==0.2.1
+transformers==5.22.2
+faster-whisper==1.2.1
+soundfile==0.13.1
+numpy>=1.26,<3
+# Versões completas do ambiente CPU validado: requirements-tested-linux-cpu.txt
+
+# PyAV 19 removeu metadata_errors usado pelo faster-whisper 1.2.1.
+av==16.0.1
