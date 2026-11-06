@@ -1,3 +1,5 @@
+![clone sua voz de graça](clonar-voz-local-preview.png)
+
 # clonar voz local 🎙️
 
 um guia da [mariana morgs](https://x.com/morgsmariana), co-ceo da DOTI,
